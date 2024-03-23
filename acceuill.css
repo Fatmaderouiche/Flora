@@ -127,7 +127,7 @@
 .search-container {
   display: flex;
   justify-content: flex-end;
-  
+  Margin-bottom:19px;
 }
 
 /* Champ de saisie caché par défaut */
