@@ -111,7 +111,11 @@ h1
 text-align: center;
 margin: 20px;
 font-size: 40px;
+;
 }
+
+
+/*hedhom mta3 block matmeshomch*/
 .p1
 {
   margin-top: 10px;
@@ -141,12 +145,13 @@ font-size: 40px;
   margin-bottom:20px ; 
 }
 
+/* **************** hedhom les titres kifkif matmesech */
 .product
 {
   text-align: center;
- 
-  font-size: 30px;
+ font-size: 30px;
   margin-top: 10px;
+
 }
 .seche
 { margin-top: 20px;
@@ -161,12 +166,13 @@ font-size: 40px;
   margin-bottom: 5px;
   
 }
-.plantes{
+.plantes
+{
   margin-top: 20px;
-  margin-left: 63s0px;
+  margin-left: 600px;
   font-size:30px;
   margin-bottom: 5px;
-  
+ 
 }
 /* *****************product section*****************/
 *{
@@ -252,7 +258,7 @@ footer {
   justify-content: space-around;
   background-color:rgb(242, 154, 211);
   padding: 50px 0px;
-  
+  width: 100%;
   background: url(pink\ \(4\).jpg) no-repeat center fixed; 
   background-size:  cover ;
      height: 250px;
