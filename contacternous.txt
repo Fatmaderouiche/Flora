@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌺Flora Boutique🌺</title>
+    <link rel="stylesheet" href="style. (1).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+   <section id="header">
+      <ul id="navbar">
+      
+      <div class="logo"> <img src="contacternous/logo - Copy.png" class="logo"> </div>
+
+      <li> <a href="#">Acceuil</a></li>
+      <li> <a href="#">Produits</a></li>
+      <li> <a href="#">Occasions </a></li>
+      <li> <a href="#">Contact </a></li>
+      <li> <a href="Login.html" class="fa fa-user-circle" ></a></li>
+      <li> <a href="../Panier/panier.html" class="fa fa-shopping-cart"></a></li> 
+ 
+
+      </section>
+      <!-- end header-->
+
+
+   
+  <body>
+    
+        <div class="content">
+    <section class="page">
+        <h1>Contacter-nous </h1>
+        <p> Besoin d'un renseignement sur votre commande ou sur 
+        </br>la livraison ?
+    </br>vous pouvez nous contacter:  </p>
+        <section class="contact">
+        <form name="contact" class="contact" id="contact" onsubmit="return false;">
+            <div class="form-name">
+            <input type="text" name="nom" id="nom" placeholder="Nom*">
+            <span>Champ Nom Obligatoire</span>
+        </div>
+        <div class="form-email">
+            <input type="email" name="mail" id="email" placeholder="Email*">
+            <span>Champ Email Obligatoire</span>
+        </div>
+        <div class="form-message">
+            <input type="text"  name="message" id="message" placeholder="Message">
+        </div>
+            
+            <div class="button">
+            <input class="bouttom"  type="submit" value="Envoyer">
+            </div>
+            </form>
+        </section>
+
+    </section>
+</div>
+<footer>
+
+   
+    <div class="nav">
+      <p>"Satisfait ou relivré”</br>
+
+        Si la plante ou le bouquet que </br>
+        vous avez reçu ne correspond</br>
+         pas à votre commande, nous </br>
+         nous excusons et nous nous engageons à le redélivrer </br>
+         gratuitement !
+        </p>
+   </div>
+   <div class="socials">
+      <p> <strong>Réseaux sociaux </strong></p>
+      <ul>
+         <li><a href="#" class="fa fa-facebook-square" >facebook</a></li>
+         <li><a href="#" class="fa fa-instagram"> Instagram </a></li>
+         <li><a href="#" class="fa fa-whatsapp"> Whatsapp </a></li>
+      </ul>
+   
+   </div>
+    <div class="reach-at">
+       <p><strong>Contactez nous</strong></h2>
+         <ul>
+            <li><a href="#" class="fa fa-mobile-phone">+21629800601</a></li>
+            <li><a href="#" class="fa fa-map-marker fa-x -grey "> Tunis,Manar </a></li>
+            <li><a href="#" class="fa fa-envelope fa-x  icon-grey "> FloraBoutique@gmail.com </a></li>
+         </ul>
+       
+    </div>
+
+    
+</footer>
+<!--  end footer section-->
+
+
+
