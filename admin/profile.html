@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Page - Admin Dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    
+    <link rel="stylesheet" href="profile.css">
+  </head>
+    <body background="img\dashboardbackground.jpeg">
+    <div>
+      <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+          <a class="navbar-brand" href="indexADMIN.html">
+            <h1 class="tm-site-title mb-0"> ADMIN DASHBOARD   </h1>
+          </a>
+          <button
+            class="navbar-toggler ml-auto mr-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars tm-nav-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto h-100">
+              <li class="nav-item">
+                <a class="nav-link" href="indexADMIN.html">
+                  <i class="fas fa-tachometer-alt"></i> Dashboard
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="ProduitsAdmin.html">
+                 <i class="fas fa-shopping-cart"></i> Produits </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ComptesAdmin.html">
+                 <i class="far fa-user"></i> Comptes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                  <i class="fas fa-cog"></i>
+                  <span> Paramétres <i class="fas fa-angle-down"></i> </span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="profile.html">Profile</a>
+                  
+                  <a class="dropdown-item" href="suppression.php">Utilisateurs</a>
+                  
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- https://jquery.com/download/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <div class="container tm-mt-big tm-mb-big">
+      <div class="row">
+        <div class="col-12 mx-auto tm-login-col">
+          <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2 class="tm-block-title mb-4">Paramètres du profile</h2>
+              </div>
+            </div>
+            <div class="row mt-2"  class="email section">
+              <div class="col-12">
+    <section id="account_setting">
+      
+        <div class="row mt-2" class="email section">
+          <div class="col-12">
+            <section id="account_setting">
+              <form action="profile.php" method="post">
+                <div class="email section">
+                  <h3 class="sub-heading"> Adresse e-mail </h3>
+                  <div class="row">
+                    <label for="email">Votre adresse e-mail est</label>
+                    <input type="email" name="email" id="email" placeholder="admin@gmail.com">
+                  </div>
+                </div>
+
+                <div class="password section">
+                  
+                    <h3 class="sub-heading">Mot de passe</h3>
+                    
+          
+                  <div class="row" id="input">
+                    <div class="col">
+                      <label for="newPassword">Nouveau mot de passe</label>
+                      <input type="password" name="newPassword" id="newPassword">
+                    </div>
+                    <div class="col">
+                      <label for="currentPassword">Mot de passe actuel</label>
+                      <input type="password" name="currentPassword" id="currentPassword">
+                    </div>
+                  </div>
+                  <p id="reset">Mot de passe oublié ? <a href="#" onclick="alert('Vous n\'avez pas la permission de réinitialiser le mot de passe.');">Réinitialisez votre mot de passe</a></p>
+
+                  <button type="submit" id="btn">Enregistrer  </button>
+                </div>
+            </form>
+        <hr>
+    
+      
+      </section>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
