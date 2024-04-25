@@ -174,14 +174,14 @@ li {
 <section id="header">
       <ul id="navbar">
           <div class="logo"> <img src="logo1.png" class="logo"> </div>
-          <li > <a href="../acceuil\acceuil.html">Acceuil</a></li>
+          <li > <a href="../acceuil/acceuil.php">Acceuil</a></li>
          
          <div class="dropdown" id="middle" >
             <button class="dropbtn">Produits 
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="bouquet.html">Bouquets</a>
+              <a href="#">Bouquets</a>
               <a href="../fleurs séchées/fleurs séchées.php">Fleurs sechés</a>
               <a href="#">Box</a>
               <a href="#">Plante</a>
@@ -194,7 +194,7 @@ li {
             </button>
             <div class="dropdown-content">
               <a href="#">Amour</a>
-              <a href="mariage.html">Mariage</a>
+              <a href="#">Mariage</a>
               <a href="../anniversaire/anniversaire.php">Anniversaire</a>
               <a href="#">Naissance</a>
             </div>
@@ -207,7 +207,7 @@ li {
             <input class="search-input" type="text" >
             <i  class="fa fa-search" aria-hidden="true" style="font-size:20px" ></i>
           </div></li>
-         <li><a href="Login.html" class="fa fa-user-circle" ></a></li>
+         <li><a href="../account settings/account settings.html" class="fa fa-user-circle" ></a></li>
         
       <!--<li> <a href="panier/mon_panier.php" class="fa fa-shopping-cart"></a></li>-->
 
@@ -220,11 +220,11 @@ li {
         {
       ?>
          
-          <li> <a href="../Panier/panier.html" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
+          <li> <a href="../panier/mon_panier.php" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
         <?php
         } else {
         ?>
-          <li> <a href="../Panier/panier.html" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
+          <li> <a href="../panier/mon_panier.php" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
         <?php
         }
       } elseif (isset($_COOKIE['panier'])) // qd on retourne sur le site plus tard, on joue sur le cookie
@@ -236,17 +236,17 @@ li {
         if ($nb_article === 1) {
         ?>
 
-          <li> <a href="../Panier/panier.html" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
+          <li> <a href="../panier/mon_panier.php" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
         <?php
         } else {
         ?>
-          <li> <a href="../Panier/panier.html" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
+          <li> <a href="../panier/mon_panier.php" class="fa fa-shopping-cart"><?php echo $nb_article; ?></a></li>
         <?php
         }
       } else // s'il n'y a pas de session, ni de cookie
       {
         ?>
-        <li> <a href="../Panier/mon_panier.php" class="fa fa-shopping-cart">Panier vide</a></li>
+        <li> <a href="./panier/mon_panier.php" class="fa fa-shopping-cart">Panier vide</a></li>
       <?php
       }
       ?>

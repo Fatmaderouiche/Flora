@@ -11,7 +11,7 @@ width: 100%;
   padding: 20px 0px;
 height: 150px;
  font-weight: bold;
- background: url(pink\ \(4\).jpg) no-repeat center fixed; 
+ background: url(../images/pink\ \(4\).jpg) no-repeat center fixed; 
  background-size:  cover ;
 }
  

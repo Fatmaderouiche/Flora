@@ -18,7 +18,7 @@ require('scripts/session_panier.php');
 
 
 <body>
- <?php require_once('header.php');?>
+ <?php require_once('../header/header.php');?>
 
   <main>
     <!-- <div id="wrapper">-->
@@ -120,7 +120,7 @@ require('scripts/session_panier.php');
       </form>
      
     </section>
-    <?php require_once('footer.php'); ?>
+    <?php require_once('../footer/footer.php'); ?>
     </div>
 
   </main>

@@ -136,19 +136,19 @@ function toggleSearch() {
       <div class="category-list">
       
       <div class="category-box"> 
-         <div style="background-image:url('image/rose.jpg')"></div>
+         <div style="background-image:url('../images/rose.jpg')"></div>
          <p>Bouquets</p>
       </div>
       <div class="category-box"> 
-        <div style="background-image:url('image/seches.jpg')"></div>
+        <div style="background-image:url('../images/seches.jpg')"></div>
          <p>Fleurs sechés</p>
       </div>
       <div class="category-box"> 
-         <div style="background-image:url('image/box.jpg')"></div>
+         <div style="background-image:url('../images/box.jpg')"></div>
          <p>Box</p>
       </div>
       <div class="category-box"> 
-         <div style="background-image:url('image/plante.jpg')"></div>
+         <div style="background-image:url('../images/plante.jpg')"></div>
          <p>Plante</p>
       </div>
     </div>
@@ -159,12 +159,12 @@ function toggleSearch() {
     <!--**********************end category-section***********************-->
 
     <div class="image-container-up">
-      <img src="image/red.jpg" alt="Image 1" class="image1" height="300px" width="30px">
-      <img src="image/sechee.jpg" alt="Image 2" class="image2" height="300px">
+      <img src="../images/red.jpg" alt="Image 1" class="image1" height="300px" width="30px">
+      <img src="../images/sechee.jpg" alt="Image 2" class="image2" height="300px">
   </div>
   <div class="image-container-bottom">
-   <img src="image/vase.jpg" alt="Image 3" class="image3"height="350px" width="350px">
-   <img src="image/pink.jpg" alt="Image 4" class="image4" height="350px" width="810px">
+   <img src="../images/vase.jpg" alt="Image 3" class="image3"height="350px" width="350px">
+   <img src="../images/pink.jpg" alt="Image 4" class="image4" height="350px" width="810px">
 </div>
  <!--**********************end pub-section***********************-->
  <footer>
@@ -205,7 +205,7 @@ function toggleSearch() {
 
 <?php
 // Inclusion du fichier de connexion à la base de données
-require_once 'connexion.php';
+require_once '../connexion.php';
 
 try {
   

@@ -1,4 +1,4 @@
-<?php require_once('connexion.php'); ?>
+<?php require_once('../connexion.php'); ?>
 <?php session_start(); ?>
 
 <?php
@@ -20,7 +20,7 @@ $bouquets = $rep->fetchAll();
   </head>
 
   <body>
-  <?php require_once('header.php');?>
+  <?php require_once('../header/header.php');?>
 
 
    <!--**********************section product***********************-->
@@ -49,7 +49,7 @@ $bouquets = $rep->fetchAll();
                   if ($stock > 0) // si stock supérieur à 0 
                   {
                   ?>
-                     <form action="panier/mon_panier.php" method="post">
+                     <form action="../panier/mon_panier.php" method="post">
                         <p><i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         <input type="submit" class="addtocart" name="<?php echo $id; ?>" value="Ajouter" ></p>
                      </form>
@@ -153,7 +153,7 @@ $bouquets = $rep->fetchAll();
    </div>-->
 
    <?php
- require_once('footer.php');
+ require_once('../footer/footer.php');
  ?>
   </body>
   
