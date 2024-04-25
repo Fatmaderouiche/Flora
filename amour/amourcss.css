@@ -1,0 +1,103 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family:Century Gothic;
+    
+    
+  }
+
+    h1{
+        text-align: center;
+        text-decoration:none;
+        margin: 20px;
+        }
+        /* *****************product section*****************/
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family:Century Gothic;
+        }
+        .product-section{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        }
+        .products-of-category
+        {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          flex-direction: row;
+          width: 100%;
+          margin-bottom:50px ;
+        }
+        .product-type {
+        padding: 10px;
+        width: 25%;
+        text-align: center;
+        text-size-adjust:  1px; ;
+        
+        }
+        
+        .product-type p{
+        
+        color: black;
+        transition: all 0.3s ease ;
+        margin-top: 10px;
+        position: relative;
+        top:0px;
+        
+        }
+        .product-list h2{
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 20px;
+        }
+        
+        
+        .product-type div {
+        width: 200px;
+        height: 200px;
+        background-size: 100% auto ;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border: 2px rgba(204, 90, 157, 0.521) solid ;
+        transition: all 0.6s ease ;
+        margin: 0px auto ;
+        }
+        .product-type div:hover{
+        background-size: 140% auto ; 
+        cursor: pointer;
+        
+        }
+        .product-type:hover div{
+            background-size: 140% auto ; 
+            cursor: pointer;
+        
+        }
+        
+        input{
+          padding: 3px;
+          margin: 5px;
+          border-radius:20px;
+          background-color: pink;
+        }
+        input:hover{
+          background-color: #f519a4;
+          color: white;
+        }
+        .product-type button{
+          padding: 3px;
+          margin: 5px;
+          border-radius:20px;
+          background-color: pink;
+        }
+        .product-type button:hover{
+          background-color: #f519a4;
+          color: white;
+        }
+        /* *****************end product section*****************/
+    
+  
