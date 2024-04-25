@@ -18,7 +18,7 @@ $bouquets = $rep->fetchAll();
     
 </head>
 <body>
-<?php require_once('../header.php');?>
+<?php require_once('../header/header.php');?>
 
       <h1> Amour </h1>
       <section class="product-section">
@@ -104,7 +104,7 @@ $bouquets = $rep->fetchAll();
     
     
     <div class="product-type">
-       <div style="background-image:url('image/a5.jpg')"></div>
+       <div style="background-image:url('../images/a5.jpg')"></div>
        <p><strong>Pissenlit</strong></p>
        <p> Feuilles vertes et dentées,</br> disposées en rosette basale.</br>Symbole de courage </br>et de persévérance.
       </p>
@@ -112,7 +112,7 @@ $bouquets = $rep->fetchAll();
        <button class="addtocart"><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../Panier/panier.html" style="text-decoration:none; color:black;">Ajouter </a> </button>
     </div>
     <div class="product-type">
-       <div style="background-image:url('image/a6.jpg')"></div>
+       <div style="background-image:url('../images/a6.jpg')"></div>
        <p><strong> Fougère arborescente</strong></p>
       <p>Grandes frondes vert foncé,</br>
          pennées et coriaces.</br>
@@ -122,7 +122,7 @@ $bouquets = $rep->fetchAll();
     </div>
     
     <div class="product-type">
-       <div style="background-image:url('image/a7.jpg')"></div>
+       <div style="background-image:url('../images/a7.jpg')"></div>
        <p><strong> Bambou</strong></p>
       <p> Feuilles lancéolées et persistantes.</br>
         Symbole de chance,</br>
@@ -132,7 +132,7 @@ $bouquets = $rep->fetchAll();
     </div>
    
     <div class="product-type">
-       <div style="background-image:url('image/a8.jpg')"></div>
+       <div style="background-image:url('../images/a8.jpg')"></div>
        <p><strong>Orchidée Dendrobium</strong></p>
       <p>Fleurs grandes et voyantes, </br> 
         Symbole de beauté, </br>d'élégance et de raffinement.
@@ -145,32 +145,9 @@ $bouquets = $rep->fetchAll();
    
      <!--**********************end Product-list***********************-->
 
-   <?php require_once('../footer.php'); ?>
+   <?php require_once('../footer/footer.php'); ?>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

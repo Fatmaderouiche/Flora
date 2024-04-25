@@ -17,7 +17,7 @@ $bouquets = $rep->fetchAll();
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<?php require_once('../header.php');?>
+<?php require_once('../header/header.php');?>
   <body> 
  
    <!--**********************section product***********************-->
@@ -233,7 +233,7 @@ $bouquets = $rep->fetchAll();
    </div>
 </div>
 <?php
- require_once('../footer.php');
+ require_once('../footer/footer.php');
  ?>
   </body>
 </html>

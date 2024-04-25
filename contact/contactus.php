@@ -35,7 +35,7 @@ try {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <?php require_once('../header.php');?>
+    <?php require_once('../header/header.php');?>
 
     <div class="content">
         <section class="page">
@@ -63,6 +63,6 @@ try {
         </section>
     </div>
 
-    <?php require_once('../footer.php'); ?>
+    <?php require_once('../footer/footer.php'); ?>
 </body>
 </html>
