@@ -1,0 +1,443 @@
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  a {
+    transition: all 0.3s ease;
+  }
+  a:focus,
+  a:hover {
+    text-decoration: none;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .tm-site-icon {
+    color: #000000;
+  }
+  .tm-site-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+  }
+  .navbar {
+    height: 100px;
+    background-color: whitesmoke;
+    padding: 0;
+  }
+  .navbar .container {
+    position: relative;
+  }
+  .tm-logout-icon {
+    font-size: 1.5em;
+  }
+  .tm-mt-big {
+    margin-top: 57px;
+  }
+  .tm-mb-big {
+    margin-bottom: 60px;
+  }
+  .tm-mt-small {
+    margin-top: 20px;
+  }
+  .tm-block-col {
+    margin-bottom: 30px;
+  }
+  .tm-block {
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 5px 0 #455c71;
+    -moz-box-shadow: 1px 1px 5px 0 #455c71;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: 100%;
+    max-height: 450px;
+  }
+  .tm-block-avatar,
+  .tm-block-settings {
+    max-height: none;
+  }
+  .tm-block-avatar {
+    height: auto;
+  }
+  .tm-block-h-auto {
+    min-height: 1px;
+    max-height: none;
+    height: auto;
+  }
+  .tm-block-scroll {
+    overflow-y: scroll;
+  }
+  .tm-block-overflow {
+    overflow: hidden;
+  }
+  .tm-block-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #050505;
+    margin-bottom: 30px;
+  }
+  .nav-link {
+    color: #000000;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 90%;
+  }
+  .nav-link > i {
+    margin-bottom: 10px;
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
+  .dropdown-item,
+  .nav-link {
+    padding: 15px 20px;
+  }
+  .dropdown-menu {
+    font-size: 90%;
+    color: #fff;
+    background-color: #cccfd3;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: auto;
+  }
+  .dropdown-item {
+    color: #fff;
+    padding: 15px 30px;
+  }
+  .navbar-nav .active > .nav-link,
+  .navbar-nav .nav-link.active {
+    background-color: #dd91eb;
+    color: #fff;
+  }
+  .navbar-nav .nav-link.active i {
+    color: #fff;
+  }
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    background-color: #cccfd3;
+  }
+  .navbar-nav a:hover,
+  .navbar-nav a:hover i {
+    color:  #dd91eb;
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+  }
+  .tm-content-row {
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .tm-col {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+  .tm-col-big {
+    width: 39%;
+  }
+  .tm-col-small {
+    width: 21.95%;
+  }
+  .tm-gray-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .tm-notification-items {
+    overflow-y: scroll;
+    height: 90%;
+  }
+  .tm-notification-item {
+    padding: 15px;
+    background-color: #cccfd3;
+    color: #fff;
+    font-size: 95%;
+    margin-bottom: 15px;
+  }
+  .tm-notification-item:last-child {
+    margin-bottom: 0;
+  }
+  .tm-notification-link {
+    color: #dd91eb;
+  }
+  .tm-text-color-secondary {
+    color: #bdcbd8;
+  }
+  .tm-small {
+    font-size: 90%;
+  }
+  .table {
+    background-color: #cccfd3;
+    color: #fff;
+    font-size: 85%;
+    margin-bottom: 0;
+  }
+  thead {
+    background-color: #cccfd3;
+    color: #fff;
+  }
+  .table thead th {
+    border-bottom: 0;
+  }
+  .tm-status-circle {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: -3px;
+  }
+  .moving {
+    background-color:#d1e3be;
+    box-shadow: 0 0 8px #d1e3be, inset 0 0 8px #d1e3be;
+  }
+  .pending {
+    background-color: #dd91eb;
+    box-shadow: 0 0 8px #dd91eb, inset 0 0 8px #dd91eb;
+  }
+  .cancelled {
+    background-color:#f2b7b5;
+    box-shadow: 0 0 8px #f2b7b5, inset 0 0 8px#f2b7b5;
+  }
+  .tm-avatar {
+    width: 345px;
+  }
+  .tm-avatar-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tm-avatar-delete-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    z-index: 1000;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #cccfd3;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: none;
+    transition: all 0.2s ease;
+  }
+  .tm-avatar-container:hover .tm-avatar-delete-link {
+    display: block;
+  }
+  .tm-col-avatar {
+    max-width: 425px;
+    width: 37%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tm-col-account-settings {
+    max-width: 822px;
+    width: 63%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .form-control {
+    background-color: #cccfd3;
+    color: #fff;
+    border: 0;
+  }
+  .form-control:focus {
+    background-color: #cccfd3;
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.1rem rgb(180, 206, 233, 0.5);
+  }
+  .form-group label {
+    color: #a1aeb1;
+    margin-bottom: 10px;
+  }
+  .tm-hide-sm {
+    display: block;
+  }
+  .tm-list-group {
+    counter-reset: myOrderedListItemsCounter;
+    padding-left: 0;
+  }
+  .tm-list-group > li {
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 8px;
+  }
+  .tm-list-group > li:hover {
+    color: #fff;
+  }
+  .tm-list-group > li:before {
+    counter-increment: myOrderedListItemsCounter;
+    content: counter(myOrderedListItemsCounter) ".";
+    margin-right: 0.5em;
+  }
+  .tm-list {
+    padding-left: 30px;
+  }
+  .tm-list > li {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    padding: 19px 18px;
+    border-radius: 50 px;
+    height: 50px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .btn {
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+  }
+  .btn-small {
+    padding: 10px 24px;
+  }
+  .btn-primary {
+    color: #000000;
+    background-color:#fff;
+    border: 2px solid#fff;
+    font-size: 90%;
+    font-weight: 600;
+  }
+  .btn-primary:active,
+  .btn-primary:hover {
+    color:#fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+
+
+
+
+
+  
+  #account_setting {
+    max-width: 45rem;
+    margin: auto;
+    padding: 2rem;
+    
+   
+    font-size: 1rem; /* Taille de police standard */
+  }
+  
+  #account_setting .section {
+    margin-bottom: 2rem; /* Espacement entre les sections */
+  }
+  
+  #account_setting .sub-heading {
+    font-size: 1.5rem;
+    color: #333333; 
+    margin-bottom: 1rem; 
+  }
+  
+  #account_setting .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+  }
+  
+  #account_setting .col {
+    flex-basis: calc(50% - 1rem); /* Deux colonnes avec un espacement */
+  }
+  
+  #account_setting label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666666; 
+  }
+  
+  #account_setting input[type="email"],
+  #account_setting input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    font-size: 1rem;
+  }
+  
+  #account_setting button {
+    padding: 0.75rem 1.5rem;
+    background-color: #3d0c8b; /* Couleur de fond pour le bouton Enregistrer */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase; /* Texte en majuscules pour le bouton */
+  }
+  
+  #account_setting button:hover {
+    background-color: #3973c9; /* Couleur de fond au survol */
+  }
+  
+  #account_setting a {
+    color: #337ab7;
+    text-decoration: underline; 
+  }
+  
+  #account_setting a:hover {
+    color: #23527c;
+  }
+  
+  /* Masquer les boutons de changement de mdp */
+  #change, #hide {
+    display: none;
+  }
+  
+  
+  #reset {
+    font-size: 0.9rem;
+    color: #999999;
+    margin-top: 1rem;
+  }
+  
+  
+  #account_setting .password:hover #change {
+    display: inline;
+  }
+  
+  
+
+
+
+
+  
